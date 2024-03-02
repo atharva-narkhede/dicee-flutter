@@ -4,7 +4,7 @@ import 'dart:math';
 void main() {
   return runApp(MaterialApp(
     home: Scaffold(
-      backgroundColor: Colors.red,
+      backgroundColor: Colors.blue,
       appBar: AppBar(
         title: Center(
           child: Text(
