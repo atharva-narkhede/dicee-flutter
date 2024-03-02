@@ -4,12 +4,13 @@ import 'dart:math';
 void main() {
   return runApp(MaterialApp(
     home: Scaffold(
-      backgroundColor: Colors.teal.shade600,
+      backgroundColor: Colors.red,
       appBar: AppBar(
         title: Center(
           child: Text(
             'DICEE',
-            style: TextStyle(fontFamily: 'SingleDay', fontSize: 50.0,color: Colors.white),
+            style: TextStyle(
+                fontFamily: 'SingleDay', fontSize: 50.0, color: Colors.white),
           ),
         ),
         backgroundColor: Colors.teal.shade800,
